@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import homeimg from '../assets/homeimg.jpg'
 import SearchInput from '../components/SearchInput'
 
+
+
 function Home() {
   return (
     <>
@@ -23,6 +25,7 @@ function Home() {
                 </div>
     </div>
     <SearchInput/>
+    
     </>
   )
 }
