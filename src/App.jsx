@@ -5,6 +5,7 @@ import Auth from './pages/Auth'
 import Rooms from './pages/Rooms'
 import Booking from './pages/Booking'
 import LandingPage from './pages/LandingPage'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -17,8 +18,8 @@ function App() {
         <Route path='/register' element={<Auth register/>}/>
         <Route path='/rooms' element={<Rooms/>}/>
         <Route path='/booking' element={<Booking/>}/>
-  
   </Routes>
+  <Footer/>
   </>
   )
 }

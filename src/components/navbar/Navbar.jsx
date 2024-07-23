@@ -11,25 +11,21 @@ function Navbar() {
     <>
     <div className="nav-wrapper" >
         <div className="nav-content" >
-            <div className="title">
-                <h3 style={{marginLeft:'-250px'}}>Hotel<span style={{color:'blueviolet',}}>ier.</span></h3>
+            <div className="title ">
+                <h3 style={{marginLeft:'-400px'}}>Hotel<span style={{color:'blueviolet',}}>ier.</span></h3>
             </div>
                 <ul className='mt-3'>
                     <li>
                         <h5><Link to={'/home'} className="menu-item">Home</Link></h5>
                     </li>
+                   
                     <li>
-                        <h5><Link className="menu-item">Services</Link></h5>
-                    </li>
-                    <li>
-                        <h5><Link to={'/booking'} className="menu-item">Booking</Link></h5>
+                        <h5><Link to={'/booking'} className="menu-item">My Booking</Link></h5>
                     </li>
                     <li>
                         <h5><Link to={'/rooms'} className="menu-item">Rooms</Link></h5>
                     </li>
-                    <li>
-                        <h5><Link className="menu-item">Contact</Link></h5>
-                    </li>
+                    
                 </ul>
                
         </div>
